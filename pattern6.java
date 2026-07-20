@@ -17,7 +17,7 @@ public class Main
 	             System.out.print(" ");
 	         } 
 	         //print pattern after spaces
-	         for (int j=1;j<=(2*i)-1 ;j++ ){
+	         for (int j=1;j<=(2*i)-1 ;j++ ){ //1 3 5 7... stars expected
 	             System.out.print("*");
 	         }
 	         
