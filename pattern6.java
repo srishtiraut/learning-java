@@ -11,7 +11,7 @@ public class Main
 	      //outer loop controls rows
 	      //inner loop controls pattern printing
 	      
-	     for(int i=1, k=1; i<=4; i++){
+	     for(int i=1; i<=4; i++){
 	         //print spaces
 	         for (int j=1;j<=30-i; j++ ){
 	             System.out.print(" ");
