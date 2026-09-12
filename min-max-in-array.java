@@ -20,12 +20,12 @@ public static void main(String args[]){
     int max = arr[0];
     
     for(int i=1; i<n; i++){
-        if(arr[i]<min){
-            min = arr[i];
+        if(arr[i]<min){ //if current element is smaller than min
+            min = arr[i];       //update min
         }
         
-        if(arr[i]>max){
-            max = arr[i];
+        if(arr[i]>max){ //if current element is bigger than max
+            max = arr[i];   //update max
         }
     }
     
