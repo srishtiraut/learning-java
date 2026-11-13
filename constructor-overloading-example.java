@@ -16,12 +16,14 @@ class Student{
     }
     
     //parameterized constructor with 1 parameter
+    //overloading
     Student(String n){
         this.name = n;
         this.age = 0;
     }
     
     //parameterized constructor having both parameters
+    //overloading
     Student(String n, int a){
         this.name = n;
         this.age = a;
@@ -49,6 +51,18 @@ public class Main
 	    s3.display();
 	}
 }
+
+
+/*
+Output:
+Name is: unknown
+Age is: 0
+Name is: Srishti
+Age is: 0
+Name is: Srishti
+Age is: 23
+
+*/
 
 
 /*
